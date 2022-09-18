@@ -57,6 +57,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "simple-file-manifest"
+version = "0.11.0-pre"
+dependencies = [
+ "tempfile",
+]
+
+[[package]]
 name = "tempfile"
 version = "3.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -68,13 +75,6 @@ dependencies = [
  "redox_syscall",
  "remove_dir_all",
  "winapi",
-]
-
-[[package]]
-name = "tugger-file-manifest"
-version = "0.11.0-pre"
-dependencies = [
- "tempfile",
 ]
 
 [[package]]

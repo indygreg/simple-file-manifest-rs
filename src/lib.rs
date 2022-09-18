@@ -722,7 +722,7 @@ mod tests {
     #[cfg(unix)]
     fn temp_dir() -> std::io::Result<TempDir> {
         tempfile::Builder::new()
-            .prefix("tugger-file-manifest-test-")
+            .prefix("simple-file-manifest-test-")
             .tempdir()
     }
 
